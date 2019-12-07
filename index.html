@@ -1,0 +1,684 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Homepage</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/linecons.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
+
+<!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('.res-nav_click').click(function(){
+		$('ul.toggle').slideToggle(600)	
+			});	
+			
+	$(document).ready(function() {
+$(window).bind('scroll', function() {
+         if ($(window).scrollTop() > 0) {
+             $('#header_outer').addClass('fixed');
+         }
+         else {
+             $('#header_outer').removeClass('fixed');
+         }
+    });
+	
+	  });
+	  
+
+		    });	
+function resizeText() {
+	var preferredWidth = 767;
+	var displayWidth = window.innerWidth;
+	var percentage = displayWidth / preferredWidth;
+	var fontsizetitle = 25;
+	var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
+	$(".divclass").css("font-size", newFontSizeTitle)
+}
+</script>
+</head>
+<body>
+
+<!--Header_section-->
+<header id="header_outer">
+  <div class="container">
+    <div class="header_section">
+      <div class="logo"><a href="javascript:void(0)"><img src="img/cse.jpg" alt=""></a></div>
+      <nav class="nav" id="nav">
+        <ul class="toggle">
+          <li><a href="#top_content">Home</a></li>
+          <li><a href="#team">People</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#downloads">Downloads</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="">
+          <li><a href="#top_content">Home</a></li>
+          <li><a href="#team">People</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#downloads">Downloads</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="res-nav_click animated wobble wow"  href="javascript:void(0)"><i class="fa-bars"></i></a> </div>
+  </div>
+</header>
+<!--Header_section--> 
+
+<!--Top_content-->
+<section id="top_content" class="top_cont_outer">
+  <div class="top_cont_inner">
+    <div class="container">
+      <div class="top_content">
+        <div class="row">
+          <div class="col-lg-5 col-sm-7">
+            <div class="top_left_cont flipInY wow animated">
+              <h3>Language and Information Technologies Lab</h3>
+              <h2>Multimodal Deception Detection</h2>
+              <p> We explore a new generation of computational tools for joint modeling of physiological and linguistic signals of human behavior. Our research work includes the construction of multimodal resources for the deception detection task, including novel physio-linguistic datasets as well as the development of multimodal approaches that integrate physiological features (e.g., heart rate, respiration rate, galvanic skin response, skin temperature), and linguistic features.
+ </p>
+          </div>
+          <div class="col-lg-7 col-sm-5"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Top_content--> 
+
+<section class="main-section team" id="team"><!--main-section team-start-->
+  <div class="container">
+    <h2>People</h2>
+    <h6>Current and previous collaborators</h6>
+    <div class="team-leader-block clearfix">
+      <div class="team-leader-box">
+        <div class="team-leader wow fadeInDown delay-03s">
+          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+          <img src="img/burzo-131.jpg" alt="">
+          <ul>
+            <li><a href="mailto:mburzo@umich.edu" class="fa-google-plus"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-03s">Mihai Burzo</h3>
+        <span class="wow fadeInDown delay-03s">Principal Investigator</span>
+        <p class="wow fadeInDown delay-03s"> Dr. Burzo is an expert in physiological sensors and their use for affective computing, with expertise in thermal imaging and other sensors for modeling and sensing human behavior.</p>
+      </div>
+      <div class="team-leader-box">
+        <div class="team-leader  wow fadeInDown delay-06s">
+          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+          <img src="img/mihalcea-131.jpg" alt="">
+          <ul>
+            <li><a href="mailto:mihalcea@umich.edu" class="fa-google-plus"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-06s">Rada Mihalcea</h3>
+        <span class="wow fadeInDown delay-06s">Co-Principal Investigator</span>
+        <p class="wow fadeInDown delay-06s">Dr. Mihalcea's research is focused mainly on computational linguistics, including approaches for analysis of lexical semantics, graph-based algorithms for NLP, and multilingual sentiment and subjectivity analysis</p>
+      </div>
+      <div class="team-leader-box">
+        <div class="team-leader  wow fadeInDown delay-06s">
+          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+          <img src="img/mohamed-131.jpg" alt="">
+          <ul>
+            <li><a href="mailto:zmohamed@umich.edu" class="fa-google-plus"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-06s">Mohammed Abouelenien</h3>
+        <span class="wow fadeInDown delay-06s">Postdoctoral fellow</span>
+        <p class="wow fadeInDown delay-06s">Dr. Abouelenien's research focuses on multimodal analysis of human behavior. He has previously worked on machine learning aspects of computer vision, with extensive recent research on multimodal data collection and learning.</p>
+      </div>
+      <div class="team-leader-box">
+        <div class="team-leader  wow fadeInDown delay-06s">
+          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+          <img src="img/veronica-131.jpg" alt="">
+          <ul>
+            <li><a href="mailto:vrncapr@umich.edu" class="fa-google-plus"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-06s">Ver&oacutenica P&eacuterez-Rosas</h3>
+        <span class="wow fadeInDown delay-06s">Postdoctoral fellow</span>
+        <p class="wow fadeInDown delay-06s">Dr. P&eacuterez-Rosas research focuses on developing multimodal strategies and computational methods to analyze, recognize, and predict human affective responses during social interactions.</p>
+      </div>
+<!-- 
+<div class="team-leader-box">
+
+        <div class="team-leader  wow fadeInDown delay-06s">
+
+          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+
+          <img src="img/" alt="">
+          <ul>
+            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+          </ul>
+        </div>
+       <h3 class="wow fadeInDown delay-06s">Kevin Young</h3>
+        <span class="wow fadeInDown delay-06s">Undergraduate Student</span>
+        <p class="wow fadeInDown delay-06s">Kevin Young is an undergraduate student conducting multimodal annotation tasks for this project.</p>
+
+      </div -->
+    </div>
+  </div>
+</section>
+<!--main-section team-end-->
+	
+
+<!--Projects-->
+
+<section  id="projects">
+   
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="service_area">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service_block">
+<div class="portfolio-image"> <img src="img/word_black-small.png" alt="Project 1"> </div>
+            <h3 class="animated fadeInUp wow">Deception Detection from Text</h3>
+            <p class="animated fadeInDown wow">This project aims to identify and model linguistic patterns associated to deceptive and truthful text by extracting linguistic features such as, n-grams, shallow and deep syntax features, readability features, and semantic features. .</p>
+          </div>
+        </div>
+   <div class="col-lg-4">
+          <div class="service_block">
+            <div class="portfolio-image"> <img src="img/multimodal-small.png" border="2" alt="Project 2"> </div>
+            <h3 class="animated fadeInUp wow">Multimodal Deception Detection</h3>
+            <p class="animated fadeInDown wow">In this project we perform the deception detection task by integrating features from different data streams such as linguistic, visual, physiological, and thermal modalities. This project also targets the construction of multimodal resources for this task.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service_block">
+      <div class="portfolio-image"> <img src="img/liers-350x260.png" alt="Project 3"> </div>
+            <h3 class="animated fadeInUp wow">Real-Life Deception Detection</h3>
+            <p class="animated fadeInDown wow">In this project we approach the identification of deceivers in real-life scenarios such as one-on-one interviews and court trials. We use video recordings taken in natural settings and apply multimodal approaches for deception detection, which have shown to provide valuable visual and linguistic patterns to discriminate between liars and truth tellers.  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--main-section-end--> 
+
+<!--new_portfolio--> 
+
+<!-- Project -->
+<section id="events" class="content">   
+   <h2>Events</h2>
+  <div class="client_area">
+      <div class="quote_section">        
+          <h3>Our work on real-life deception detection was in the news </h3><p> <a href="https://www.newscientist.com/article/mg22830462-700-lie-detecting-algorithm-spots-fibbing-faces-better-than-humans/" >Lie-detecting algorithm spots fibbing faces better than humans </a> at New Scientist <br> <a href = "http://www.scientificcomputing.com/news/2015/12/lie-detecting-software-uses-machine-learning-achieve-75-percent-accuracy" >Lie-detecting Software uses Machine Learning to Achieve 75 Percent Accuracy </a> at Scientific Computing <br> <a href ="http://ns.umich.edu/new/releases/23356-lie-detecting-software-uses-real-court-case-data" >Lie-detecting software uses real court case data </a> at Michigan News<br> <a href ="http://www.telegraph.co.uk/news/science/science-news/12044093/How-to-spot-a-liar-its-not-what-you-think.html" >How to spot a liar: it’s not what you think </a> at the Telegraph <br> <a href ="http://www.freep.com/story/news/local/michigan/2016/06/06/university-of-michigan-lie-detecting-software/84548270/" >U-M researchers work to determine when people are lying </a> at Detroit Free Press
+ </p>
+      <div class="clear"></div>
+    </div>
+        
+      <div class="quote_section">        
+          <h3>Invited talk at PETRA 2016 </h3><p> Dr. Rada Mihalcea and Dr. Mihai Burzo will give the keynote talk &quot; Deception Detection using Trial Data &quot;  at the 9th PErvasive Technologies Related to Assistive Environments (PETRA) conference. The conference will held on the Island of Corfu, Greece at the Corfu Holiday Palace Hotel from June 29 to July 1, 2016.
+ </p>
+      <div class="clear"></div>
+    </div>
+
+                
+      <div class="quote_section">        
+          <h3>Invited talk at Computational Approaches  to Deception Detection</h3> <p>Dr. Rada Mihalcea gave the keynote talk &quot; Deception Detection using Trial Data &quot;  at the NAACL 2016 Workshop on Computational Approaches to Deception Detection. The workshop was held in San Diego, California, June 17, 2016 at the Sheraton San Diego Hotel & Marina.  
+ </p>
+      <div class="clear"></div>
+    </div>       
+          <div class="quote_section">        
+          <h3>1st Workshop on Multimodal Deception Detection</h3><p>  The workshop was held on November 2015 jointly with the ACM 17th International Conference on Multimodal Interaction, ICMI 2015, in Seattle, WA. MWDD focuses on multimodal and interdisciplinary approaches to deception detection, as well as approaches that utilized a single modality with clear potential for integration with additional modalities. More information can be found  <a href = "http://lit.eecs.umich.edu/events/icmi-workshop/" >here </a>. The workshop proceedings can be found <a href = "http://dl.acm.org/citation.cfm?id=2823465" >here </a>  </p>
+      </div>
+      <div class="clear"></div>
+    </div>
+   
+
+</section>
+
+<!-- Project -->
+<section id="publications" class="content">   
+   <h2>Publications</h2>
+  <div class="client_area ">
+        
+      <div class="quote_section">        
+          <ul style="list-style-type:square">
+	  	<li><p>Mohamed Abouelenien, Rada Mihalcea, Mihai Burzo, <font color="darkred"> Analyzing Thermal and Visual Clues of Deception for a Non-Contact Deception Detection Approach</font>, in Proceedings of the 9th ACM Conference on PErvasive Technologies Related to Assistive Environments (PETRA 2016), Corfu, Greece, July 2016.[<a href="http://web.eecs.umich.edu/~mihalcea/papers/abouelenien.petra16deception.pdf">pdf</a>]</p></li>
+<li><p>M. Abouelenien, M. Burzo, R. Mihalcea, <font color="darkred"> "Human Acute Stress Detection via Integration ofPhysiological Signals and Thermal Imaging"</font>, in Proceedings of the 9th ACM Conference on PErvasive Technologies Related to Assistive Environments, PETRA 2016, Corfu, Greece, July 2016. [<a href="PDFs/Stress.pdf">PDF</a>]</li></p></font>
+	  	<li><p>Veronica Perez-Rosas, Mohamed Abouelenien, Rada Mihalcea, Mihai Burzo, <font color="darkred"> Deception Detection using Real-life Trial Data</font>, in Proceedings of the ACM International Conference on Multimodal Interaction (ICMI 2015), Seattle, November 2015. [<a href="http://web.eecs.umich.edu/~mihalcea/papers/perezrosas.icmi15.pdf">pdf</a>]</p></li>
+	  	<li><p> Mohamed Abouelenien, Rada Mihalcea, Mihai Burzo, <font color="darkred"> Trimodal Analysis of Deceptive Behavior</font>, Proceedings of the ACM Workshop on Multimodal Deception Detection, Seattle, WA, November 2015.[<a href="http://web.eecs.umich.edu/~mihalcea/papers/abouelenien.icmi15workshop.pdf">pdf</a>]</p></li>
+              		<li><p>Veronica Perez-Rosas, Mohamed Abouelenien, Rada Mihalcea, Yao Xiao, CJ Linton and Mihai Burzo, <font color="darkred"> Verbal and Nonverbal Clues for Real-life Deception Detection</font>, in Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2015), Lisbon, Portugal, September 2015.[<a href="http://www.aclweb.org/anthology/D15-1281">pdf</a>]</p></li>
+              	  	<li><p>Veronica Perez-Rosas and Rada Mihalcea, <font color="darkred"> Experiments in Open Domain Deception Detection</font>, in Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2015), Lisbon, Portugal, September 2015.[<a href="https://www.aclweb.org/anthology/D/D15/D15-1133.pdf">pdf</a>]</p></li>
+<li><p>Mohamed Abouelenien, Mihai Burzo, Rada Mihalcea, <font color=darkred> Cascaded Multimodal Analysis of Alertness Related Features for Drivers Safety Applications</font>, in Proceedings of the 8th ACM Conference on PErvasive Technologies Related to Assistive Environments (PETRA 2015), Corfu, Greece, July 2015. [<a href="http://web.eecs.umich.edu/~mihalcea/papers/abouelenien.petra15.pdf">pdf</a>]</p></li>
+<li><p>Veronica Perez-Rosas,  <font color=darkred> Exploration of visual, acoustic, and physiological modalities to complement linguistic representations for sentiment analysis</font>, Ph.D. thesis, December 2014.</p></li>
+<li><p>Veronica Perez-Rosas, Cristian Bologa,  Mihai Burzo,  Rada Mihalcea, <font color="darkred"> Deception Detection Within and Across Cultures</font>,  in ``Text mining,'', Springer, 2014.[<a href="http://web.eecs.umich.edu/~mihalcea/papers/perezrosas.springer14.pdf">pdf</a>]</p></li>
+<li><p>Veronica Perez-Rosas and Rada Mihalcea, <font color="darkred"> Gender Differences in Deceivers Writing Style</font>, in Proceedings of the Mexican International Conference on Artificial Intelligence (MICAI 2014), Tuxtla Gutierrez, Mexico, November 2014.[<a href="http://web.eecs.umich.edu/~mihalcea/papers/perezrosas.micai14.pdf">pdf</a>]</p></li> 
+<li><p>Mohamed Abouelenien, Veronica Perez-Rosas, Rada Mihalcea,  Mihai Burzo, <font color="darkred"> Deception Detection Using a Multimodal Approach</font>, in Proceedings of the ACM International Conference on Multimodal Interaction (ICMI 2014), Istanbul, Turkey, November 2014.[<a href="http://web.eecs.umich.edu/~mihalcea/papers/abouelenien.icmi14.pdf">pdf</a>]</p></li>
+<li><p>Mihai Burzo, Mohamed Abouelenien, Veronica Perez-Rosas, Cakra Wicaksono, Yong Tao, Rada Mihalcea, <font color=darkred>  Using Infrared Thermography and Biosensors to Detect Thermal Discomfort in a Building's Inhabitants</font>, in Proceedings of the ASME International Mechanical Engineering Congress and Exposition (IMECE 2014), Montreal, Canada, November 2014. [<a href="http://web.eecs.umich.edu/~mihalcea/papers/burzo.imece14.pdf">pdf</a>]</p></li>
+<li><p>Veronica Perez-Rosas and Rada Mihalcea, <font color="darkred"> Cross-Cultural Deception Detection</font>, Proceedings of the Association for Computational Linguistics (ACL 2014), Baltimore, MD, June 2014.[<a href="http://www.aclweb.org/anthology/P14-2072">pdf</a>]</p></li>
+<li><p>Veronica Perez-Rosas, Rada Mihalcea, Alexis Narvaez and Mihai Burzo, <font color="darkred"> A Multimodal Dataset for Deception Detection</font>, in Proceedings of the Conference on Language Resources and Evaluations (LREC 2014), Reykjavik, Iceland, May 2014.[<a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/869_Paper.pdf">pdf</a>]</p></li>
+<li><p>Mihai Burzo, Cakra Wicaksono, Mohamed Abouelenien, Veronica Perez-Rosas, Rada Mihalcea, Yong Tao, <font color=darkred>Multimodal Sensing of Thermal Discomfort for Adaptive Energy Saving in Buildings</font>, in Proceedings of the Net Zero Symposium, Florida, March 2014. [<a href="http://web.eecs.umich.edu/~mihalcea/papers/burzo.netzero14.pdf">pdf</a>]</p></li>
+<li><p>Veronica-Perez Rosas, Rada Mihalcea, Mihai Burzo, <font color="darkred"> Automatic Detection of Deceit in Verbal Communication</font>, in Proceedings of the International Conference on Multimodal Interaction (ICMI 2013), Sydney, Australia, December 2013. [<a href="http://web.eecs.umich.edu/~mihalcea/papers/perezrosas.icmi13.pdf">pdf</a>]</p></li>
+<li><p>Rada Mihalcea and Mihai Burzo, <font color="darkred">Towards Multimodal Deception Detection -- Step 1: Building a Collection of Deceptive Videos</font>, in Proceedings of the ACM International Conference on Multimodal Interaction, Santa Monica, October 2012.</p></li>
+</ul>
+      <div class="clear"></div>
+    </div>
+   
+
+</section>
+<!--/Project --> 
+
+<!--new_portfolio--> 
+
+<!--
+<section class="main-section paddind" id="Project">
+	<div class="container">
+    	<h2>Project</h2>
+    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+	</div>
+    
+    
+</section>   
+
+-->
+
+<!--Service-->
+
+
+
+<!-- Project -->
+
+  
+  <!-- Container -->
+<!--  <div class="container portfolio-title"> -->
+    
+    <!-- Section Title -->
+    
+    <section id="downloads" class="content"> 
+      <h2>Downloads</h2>
+      <div class="section-title">
+    </div>
+    <!--/Section Title --> 
+    
+ <!-- </div>-->
+  <!-- Container -->
+  
+  <div class="portfolio-top"></div>
+  
+  <!-- Project Plus Filters -->
+  <div class="portfolio"> 
+    
+    <!-- Project Filters -->
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+ <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>All</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".design">
+          <h5>Datasets</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".photography">
+          <h5>Code</h5>
+          </a></li>
+         
+      </ul>
+    </div>
+    <!--/Project Filters --> 
+    
+    <!-- Project Wrap -->
+    <div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap"> 
+      
+      
+      <!-- Project Item Normal Expander -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
+        <div class="portfolio-image"> <img src="img/poly-water.jpg" alt="Project 1"> </div>
+ <a href="http://web.eecs.umich.edu/~mihalcea/downloads/openDeception.2015.tar.gz" title="Open Project" class="external">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name" style="margin-top:0px">Open Domain Deception</h4>
+            <p class="project-categories "> A crowdsourced deception dataset consisting of short open domain truths and lies from 512 users. Seven lies and seven truths are provided for each user. The dataset also includes user's demographic information, such as gender, age, country of origin, and education level.(August 27, 2015) <br></p>
+          </div>
+        </div>
+      </div>
+      <!--/Project Item Normal Expander --> 
+      
+    
+      
+      <!-- Project Item FullScreen Expander -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/poly-water.jpg" alt="Project 1"> </div>
+ <a href="http://web.eecs.umich.edu/~mihalcea/downloads/crossCulturalDeception.2014.tar.gz" class="external">
+        
+<div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name" style="margin-top:0px" >Cross-Cultural Deception</h4>
+            <p class="project-categories"> A deception dataset covering four different cultures: US, India, Mexico, and Romania. Each dataset consists of short deceptive and truthful essays for three topics: opinions on abortion, opinions on death penalty, and feelings about a best friend. (November 20, 2014) <br></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project Item External Project  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
+        <div class="portfolio-image"> <img src="img/poly-water.jpg" alt="Project 1"> </div>
+        <a href="http://web.eecs.umich.edu/~mihalcea/downloads/RealLifeDeceptionDetection.2016.zip" class="external">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name" style="margin-top:0px">Real-life Deception</h4>
+            <p class="project-categories">A multimodal dataset consisting of real-life deception: deceptive and truthful trial testimonies, manually transcribed and annotated. The dataset includes 121 short videos, along with their transcriptions and gesture annotations. (June 15, 2016)<br></p>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Project Item External Project  --> 
+      
+      <!-- Project Item With PrettyPhoto  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   photography isotope-item">
+        <div class="portfolio-image"> <img src="img/poly-water.jpg" alt="Project 1"> </div>
+        <a title="Deception Detector" rel="prettyPhoto[galname]" href="https://github.com/banea/DeceptionDetection.git">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name" style="margin-top:0px"> Computational Lingustic Tools for Identifying Deception in Text</h4>
+            <p class="project-categories">Deception Detector</p>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Project Item With PrettyPhoto  --> 
+      
+    </div>
+    <!--/Project Wrap --> 
+    
+  </div>
+  <!--/Project Plus Filters -->
+  
+  <div class="portfolio-bottom"></div>
+  
+  <!-- Project Page Holder-->
+  <div id="project-page-holder">
+    <div class="clear"></div>
+    <div id="project-page-data"></div>
+  </div>
+  <!--/Project Page Holder--> 
+  
+</section>
+<!--/Project --> 
+
+<!--new_portfolio--> 
+
+<!--
+<section class="main-section paddind" id="Project">
+	<div class="container">
+    	<h2>Project</h2>
+    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+	</div>
+    
+    
+</section>   
+
+
+<!--main-section client-part-end-->
+
+<div class="c-logo-part"><!--c-logo-part-start-->
+  <div class="container">
+    <ul class="delay-06s animated  bounce wow">
+      
+    </ul>
+  </div>
+</div>
+<!--c-logo-part-end-->
+
+<!--twitter-feed-end-->
+<footer class="footer_section" id="contact">
+  <div class="container">
+    <section class="main-section contact" id="contact">
+      <div class="contact_section">
+        <h2>Contact Us</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="contact_block">
+              <div class="contact_block_icon rollIn animated wow"><span><i class="fa-home"></i></span></div>
+              <span>  2260 Hayward St, Ann Arbor <br> MI 48109 </span> </div>
+          </div>
+          
+          <div class="col-lg-4">
+            <div class="contact_block">
+              <div class="contact_block_icon icon3 rollIn animated wow"><span><i class="fa-pencil"></i></span></div>
+              <span> <a href="mailto:deceptiondetection@umich.edu">deceptiondetection@umich.edu</a> </span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 wow fadeInLeft">
+          <div class="contact-info-box address clearfix">
+            <p>Share your opinions with us!</p>
+          </div>
+          <!--<ul class="social-link">
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa-twitter"></i></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa-facebook"></i></a></li>
+            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa-pinterest"></i></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa-google-plus"></i></a></li>
+            <li class="dribbble animated bounceIn wow delay-06s"><a href="javascript:void(0)"><i class="fa-dribbble"></i></a></li>
+          </ul> 
+        </div>
+        <div class="col-lg-6 wow fadeInUp delay-06s">
+          <div class="form">
+            <input class="input-text animated wow flipInY delay-02s" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text animated wow flipInY delay-04s" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <textarea class="input-text text-area animated wow flipInY delay-06s" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <input class="input-btn animated wow flipInY delay-08s" type="submit" value="send message">
+          </div>
+        </div> -->
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"> <span>Copyright © 2015 | <a href="http://bootstraptaste.com/">Bootstrap Themes</a> by BootstrapTaste </span> </div>
+    <!-- 
+        All links in the footer should remain intact. 
+        Licenseing information is available at: http://bootstraptaste.com/license/
+        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Butterfly
+    -->
+  </div>
+</footer>
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#header_outer').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false    
+            
+        });
+        
+    });
+</script> 
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+    document.getElementById('').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'wow fadeInDown';
+	  section.className = 'wow shake';
+	  section.className = 'wow zoomIn';
+	  section.className = 'wow lightSpeedIn';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script> 
+<script type="text/javascript">
+	$(window).load(function(){
+		
+		$('a').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 91
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	})
+</script> 
+
+<!--<script type="text/javascript">
+
+$(window).load(function(){
+  
+  
+  var $container = $('.portfolioContainer'),
+      $body = $('body'),
+      colW = 350,
+      columns = null;
+
+  
+  $container.isotope({
+    // disable window resizing
+    resizable: true,
+    masonry: {
+      columnWidth: colW
+    }
+  });
+  
+  $(window).smartresize(function(){
+    // check if columns has changed
+    var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
+    if ( currentColumns !== columns ) {
+      // set new column count
+      columns = currentColumns;
+      // apply width to container manually, then trigger relayout
+      $container.width( columns * colW )
+        .isotope('reLayout');
+    }
+    
+  }).smartresize(); // trigger resize to set container width
+  $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+			
+            filter: selector,
+         });
+         return false;
+    });
+  
+});
+
+</script>
+
+
+--> 
+
+<script type="text/javascript">
+
+   
+  jQuery(document).ready(function($){     
+// Project Isotope
+	var container = $('#portfolio-wrap');	
+	
+
+	container.isotope({
+		animationEngine : 'best-available',
+	  	animationOptions: {
+	     	duration: 200,
+	     	queue: false
+	   	},
+		layoutMode: 'fitRows'
+	});	
+
+	$('#filters a').click(function(){
+		$('#filters a').removeClass('active');
+		$(this).addClass('active');
+		var selector = $(this).attr('data-filter');
+	  	container.isotope({ filter: selector });
+        setProjects();		
+	  	return false;
+	});
+		
+		
+		function splitColumns() { 
+			var winWidth = $(window).width(), 
+				columnNumb = 1;
+			
+			
+			if (winWidth > 1024) {
+				columnNumb = 4;
+			} else if (winWidth > 900) {
+				columnNumb = 2;
+			} else if (winWidth > 479) {
+				columnNumb = 2;
+			} else if (winWidth < 479) {
+				columnNumb = 1;
+			}
+			
+			return columnNumb;
+		}		
+		
+		function setColumns() { 
+			var winWidth = $(window).width(), 
+				columnNumb = splitColumns(), 
+				postWidth = Math.floor(winWidth / columnNumb);
+			
+			container.find('.portfolio-item').each(function () { 
+				$(this).css( { 
+					width : postWidth + 'px' 
+				});
+			});
+		}		
+		
+		function setProjects() { 
+			setColumns();
+			container.isotope('reLayout');
+		}		
+		
+		container.imagesLoaded(function () { 
+			setColumns();
+		});
+		
+	
+		$(window).bind('resize', function () { 
+			setProjects();			
+		});
+
+});
+$( window ).load(function() {
+	jQuery('#all').click();
+	return false;
+});
+</script>
+</body>
+</html>
