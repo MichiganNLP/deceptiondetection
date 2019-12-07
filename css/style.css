@@ -1361,7 +1361,7 @@ img {
 		height:40px;
 		margin-top:40px;
 		opacity:0;
-		background:url(../images/zoom.png);
+		background:url(../img/zoom.png);
 		background-size:40px 40px;
 		transition:all 0.3s ease 0.1s;
 		-moz-transition:all 0.3s ease 0.2s;
